@@ -20,7 +20,13 @@ This XML file declares which signature|privileged permissions should be granted 
 -->
 <permissions>
     <privapp-permissions package="com.google.intelligence.sense">
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
         <permission name="android.permission.RECORD_AUDIO"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 </permissions>
 
